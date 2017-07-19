@@ -69,7 +69,7 @@ p {
 /* HEADER */
 header {
   color:#333333;
-  background-image: url("images/dashboard.png") no-repeat center top;
+  background-image:url("images/dashboard.png");
 }
 header nav {
   padding:1em 0;
