@@ -137,3 +137,131 @@ header .hero p{
   border:2px solid #B02644;
   box-shadow: 0px 2px 0px 0px #979797;
 }
+
+/* BENEFITS */
+.benefits {
+  text-align: center;
+  display: block;
+  position: relative;
+}
+.benefits ul {
+  margin: 0 auto;
+  padding: 4em 0;
+}
+.benefits ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.benefits i {
+  color:#B02644;
+  font-size: 60px;
+  margin:0;
+  vertical-align: middle;
+}
+.benefits h2 {
+  color:#B02644;
+}
+
+/* PRICING */
+.pricing {
+  background: #E3E3E3;
+  background-size: cover;
+  text-align: center;
+  padding: 4em 0;
+}
+.pricing h2 {
+  color: #0A828D;
+}
+.pricing ul {
+  margin: 0 auto;
+  padding: 2em 0;
+}
+.pricing ul li {
+  list-style-type: none;
+}
+.box {
+  padding: 0 15px 15px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  min-height: 439px;
+  position: relative;
+  margin-top: 25px;
+}
+.box.middle {
+  min-height: 485px;
+  margin-top: 0px;
+}
+.box h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #0A828D;
+  text-align: center;
+  margin: 0 -15px 40px;
+  padding: 50px 0;
+}
+.box h4 {
+  font-size: 50px;
+  font-weight:lighter;
+  margin: 40px 0 10px;
+  color:#4A4A4A;
+}
+.box h4 span {
+  font-size:32px;
+  vertical-align: top;
+}
+.box h4 span.month {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  color: #9B9B9B;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.box ul li {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.box .btn{
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+  right:20px;
+}
+
+/* testimonials */
+.testimonials {
+  padding: 4em 0;
+  text-align: center;
+}
+.testimonials h2 {
+  color: #0A828D;
+}
+.testimonials ul li {
+  list-style-type: none;
+}
+.testimonials blockquote {
+  color: #4A4A4A;
+  text-align: left;
+  font-style: italic;
+  background: #F2F2F2;
+  border-radius: 50%;
+  position: relative;
+  padding: 30px
+  width:auto;
+  margin: 0;
+}
+.testimonials img {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  float:right;
+  display: inline-block;
+  margin: 20px 10px 0 0;
+}
+.testimonials p.name {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size: 13px;
+  margin-top: 30px;
+}
