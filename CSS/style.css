@@ -87,7 +87,7 @@ p {
 /* header */
 header {
   color:#333333;
-  background-image:url(../images/dashboard.png);
+  background-image: url(./Images/dashboard.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px
