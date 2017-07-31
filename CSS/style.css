@@ -87,7 +87,7 @@ p {
 /* header */
 header {
   color:#333333;
-  background-image:url(../Images/dashboard.png);
+  background-image:url(../images/dashboard.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 40px
@@ -262,7 +262,7 @@ header .hero p{
 }
 .testimonials blockquote {
   color: #4A4A4A;
-  text-align: left;
+  text-align:center;
   font-style: italic;
   background: #F2F2F2;
   border-radius: 50%;
