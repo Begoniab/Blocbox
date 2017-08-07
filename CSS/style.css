@@ -386,6 +386,10 @@ footer {
   text-align: center;
   margin-right: 8px;
 }
+.left-nav .items a:active{
+  background-color: #B02644;
+}
+
 /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
