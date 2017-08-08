@@ -12,10 +12,13 @@
  <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
  <link rel="stylesheet" type="text/css" href="CSS/style.css">
  <link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
+ <link rel="stylesheet" type="text/css" href="CSS/dropit.css">
 
 </head>
 
 <body class="dashboard">
+<!-- responsive nav -->
+<a class="hamburger" id="menu" href="#">&#9776;</a>
 <!-- left nav -->
 <nav id="left-nav" class="left-nav">
 <a href="#" class="site-logo"><img src="Images/site-logo.png"/> </a>
@@ -53,7 +56,16 @@
     <div class="container">
     <div class="header">
       <h1>All Items</h1>
-      <a href="#"class="btn">+Add</a>
+      <ul class="menu">
+           <li>
+             <a href="#" class="btn">+ Add</a>
+             <ul>
+                 <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+                 <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+                 <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+             </ul>
+           </li>
+         </ul>
     </div>
   </div>
 <div class="container">
@@ -117,5 +129,15 @@
           <a href="fakedashboard.html"> Do you like gatitos? </a>
          </div>
        </div>
+    </section>
+  </main>
+  <script src="JS/jquery-3.2.1.min.js"></script>
+  <script src="JS/dropit.js"></script>
+  <script type="text/javascript">
+  $  (".menu").dropit();
+  $ ("#menu") .click(function() {
+    $ ("#left-nav").toggleClass("open",200);
+  });
+  </script>
 </body>
 </html>
